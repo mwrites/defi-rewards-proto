@@ -1,0 +1,13 @@
+{
+  "name": "js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "@solana/spl-token": "^0.3.5",
+    "@solana/web3.js": "^1.66.1",
+    "Buffer": "^0.0.0",
+    "bn.js": "^5.2.1",
+    "chai": "^4.3.6",
+    "mz": "^2.7.0"
+  }
+}
