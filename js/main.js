@@ -128,6 +128,7 @@ const main = async () => {
         // tlvData: Buffer;
 
         console.log("(after) mint:", mint);
+        console.log("INITIALIZE MINT SUCCESS");
     } else if (ixIndex === 1) {
         const signers = [payer];
 
@@ -163,6 +164,7 @@ const main = async () => {
         const afterAta = await getAccount(connection, mintDestAtaTBC);
         console.log("(after) ata:", afterAta);
         expect(afterAta.amount).to.eql(beforeAmount + mintAmount);
+        console.log("MINT SUCCESS");
     } else {
         console.log("not supported");
         exit(1);
